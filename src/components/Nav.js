@@ -1,8 +1,11 @@
 import React,{ useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./Nav.css"
 
 export default function Nav() {
     const [show,setShow] = useState(false);
+    const [searchValue,setSerchValue] = useState("");
+    const navigate = useNavigate();
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -17,6 +20,10 @@ export default function Nav() {
         };
     }, []);
 
+    const handChange = (e) => {
+        setSerchValue(e.target.value);
+        navigate(`/search?q=${e.target.value}`)
+    }
     
 
 
@@ -28,11 +35,14 @@ export default function Nav() {
             className='nav__logo'
             onClick={() => window.location.reload()}
         />
+
+        <input value={searchValue} onChange={handChange} className="nav__input" type="text" placeholder='영화를 검색해주세요.'/>
+
         <img 
             alt = "user logged"
             src = "https://pbs.twimg.com/media/DmBraqkXcAA1Yco?format=jpg&name=360x360"
             className= 'nav__avatar'     
         />
     </nav>
-  )
+  ) 
 }
