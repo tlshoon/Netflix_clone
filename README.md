@@ -35,7 +35,7 @@ The Movie DB
 
 ### 1. 메인페이지
 
-![메인페이지](https://user-images.githubusercontent.com/87574833/216752981-f267434c-70f4-455d-87a1-02e6206d6483.jpeg)
+![스크린샷 2023-02-04 오후 4 08 58](https://user-images.githubusercontent.com/87574833/216754227-643b9eec-da3a-441b-b443-9c38e34154e2.jpeg)
 
  - 전체 페이지 크게 영화를 검색할 수 있는 부분과 메인 영화를 추천해주는 부분 그리고 장르별 영화를 나열하는 부분으로 나눴습니다.
 
@@ -68,6 +68,8 @@ The Movie DB
 ![장르별](https://user-images.githubusercontent.com/87574833/216753406-65cb7d30-a09f-4723-b038-999d624382fd.jpeg)
 
  - 장르별로 영화를 구분해서 데이터를 받아와 배치했습니다.
+ - 화살표를 누르면 다른 영화를 불러 올 수 있게 기능 구현을 했습니다.
+ - 더욱 편하게 영화를 찾아 볼 수 있게 드래그로 다른 영화를 불러 올 수 있게 기능을 추가했습니다.
  
  <br>
  
@@ -76,6 +78,11 @@ The Movie DB
  ![스크린샷 2023-02-04 오후 3 48 52](https://user-images.githubusercontent.com/87574833/216753454-26167409-dcd2-4009-a0da-9d5560c09ecf.jpeg)
 
  - 영화를 클릭하면 영화에 대한 정보가 나올 수 있도록 모달창을 만들었습니다.
+
+<br>
+
+### 링크
+https://tlshoon.github.io/Netflix_clone
 
 <br>
 
