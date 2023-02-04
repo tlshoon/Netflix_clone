@@ -22,7 +22,7 @@ react-create-app, react-hook, react-router-dom , axios, styled-components
 <br>
 
 ### 🎬 데이터베이스
-The Movie DB에 API 비동기 요청을 해 데이터를 받아 왔습니다.
+The Movie DB
 
 
 <br>
